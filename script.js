@@ -27,13 +27,11 @@
   }
 
   function currentlyDark() {
-    var explicit = root.getAttribute("data-theme");
-    if (explicit === "dark") return true;
-    if (explicit === "light") return false;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // Page defaults to dark when no explicit theme is set.
+    return root.getAttribute("data-theme") !== "light";
   }
 
-  // Init from storage (falls back to system preference if nothing stored)
+  // Init from storage (page defaults to dark if nothing stored)
   var stored = getStoredTheme();
   if (stored) applyTheme(stored);
 

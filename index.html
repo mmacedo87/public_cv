@@ -4,245 +4,174 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Miguel Macedo — Data Engineer</title>
-  <meta name="description" content="Miguel Macedo — Data Engineer with 10+ years of experience in ETL, cloud data migration and BI, based in Braga, Portugal." />
+  <meta name="description" content="Miguel Macedo — Data Engineer based in Braga, Portugal. 10+ years turning messy, high-stakes data systems into pipelines people can trust." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="#top">Miguel Macedo</a>
+      <a class="brand" href="#top">MM<span class="brand-dot">.</span></a>
       <nav class="nav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
         <a href="#contact">Contact</a>
       </nav>
       <div class="topbar-actions">
+        <a class="cv-link" href="assets/CV_Miguel_Macedo.pdf" target="_blank" rel="noopener">CV (PDF)</a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
           <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
           <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
-        <a class="btn-cv" href="assets/CV_Miguel_Macedo.pdf" target="_blank" rel="noopener">Download CV</a>
       </div>
     </div>
   </header>
 
-  <div id="top" class="hero">
+  <section id="top" class="hero">
     <div class="hero-inner">
-      <p class="eyebrow">Data Engineer</p>
+      <p class="eyebrow">Data Engineer · Braga, Portugal</p>
       <h1>Miguel Macedo</h1>
-      <p class="hero-lede">10+ years building data pipelines, ETL processes and cloud migrations — currently leading a Teradata → Google BigQuery migration for Vodafone Germany.</p>
-      <div class="hero-meta">
-        <span>Braga, Portugal</span>
-        <span aria-hidden="true">·</span>
-        <a href="mailto:m.macedo@live.com.pt">m.macedo@live.com.pt</a>
+      <p class="hero-statement">I turn messy, high-stakes data systems into pipelines people can trust.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="mailto:m.macedo@live.com.pt">Let's talk →</a>
+        <a class="btn-ghost" href="#experience">See the work</a>
       </div>
+      <dl class="hero-stats">
+        <div><dt>10+</dt><dd>years in data &amp; ETL</dd></div>
+        <div><dt>Teradata → BigQuery</dt><dd>migration, in progress</dd></div>
+        <div><dt>3</dt><dd>self-built automation products</dd></div>
+      </dl>
     </div>
-  </div>
+  </section>
 
-  <main class="layout">
-    <aside class="sidebar">
+  <main>
 
-      <section aria-labelledby="skills-heading" id="skills">
-        <h2 id="skills-heading">Key Skills</h2>
-        <ul class="chip-list">
-          <li>Python</li>
-          <li>SQL &amp; PL/SQL</li>
-          <li>Google Cloud Platform (BigQuery)</li>
-          <li>n8n (Workflow Automation)</li>
-          <li>Teradata &amp; BTEQ</li>
-          <li>Oracle BRM</li>
-          <li>Oracle ODI (ETL)</li>
-          <li>Oracle Forms &amp; Reports</li>
-          <li>Shell Scripting</li>
-          <li>Talend Open Studio</li>
-          <li>Git &amp; Jenkins</li>
-          <li>Agile / SAFe</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="competencies-heading">
-        <h2 id="competencies-heading">Core Competencies</h2>
-        <ul class="chip-list">
-          <li>Software Design &amp; Analysis</li>
-          <li>Database Design &amp; Development</li>
-          <li>Billing Systems</li>
-          <li>Customer Relationship Management</li>
-          <li>Technical Troubleshooting</li>
-          <li>Time Management</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="languages-heading">
-        <h2 id="languages-heading">Languages</h2>
-        <ul class="plain-list">
-          <li><strong>Portuguese</strong> — Native</li>
-          <li><strong>English</strong> — Advanced (Written &amp; Verbal)</li>
-          <li><strong>Spanish</strong> — Basic</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="interests-heading">
-        <h2 id="interests-heading">Interests</h2>
-        <ul class="plain-list">
-          <li>Music — performing in a variety of settings and environments</li>
-          <li>Tennis (federated, 16 years) and Padel — competitive team &amp; individual sport</li>
-        </ul>
-      </section>
-
-    </aside>
-
-    <div class="content">
-
-      <section id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About</h2>
-        <p>Data Engineer with 10+ years at Celfocus, delivering data pipelines, ETL processes and BI solutions across billing, telecom and cloud migration projects. Currently leading part of Vodafone Germany's migration from Teradata to Google BigQuery — building Python tooling for BigQuery table management and automating data-access governance. Strong foundation in SQL/PL-SQL and ETL, complemented by hands-on training in RAG-based GenAI workflows using n8n.</p>
-      </section>
-
-      <section id="experience" aria-labelledby="experience-heading">
-        <h2 id="experience-heading">Experience</h2>
-
-        <article class="job">
-          <div class="job-head">
-            <h3>Data Engineer <span class="job-company">— Celfocus, Vodafone Germany (BIT Project)</span></h3>
-            <p class="job-dates">Oct 2025 – Present</p>
+    <section id="about" class="section">
+      <div class="section-inner about-grid">
+        <div class="about-copy">
+          <p class="section-label">01 — About</p>
+          <p class="lede">I'm a data engineer with 10+ years turning messy, high-stakes systems into pipelines people can trust.</p>
+          <p>Most recently I've been leading part of Vodafone Germany's migration from Teradata to Google BigQuery — writing the Python tooling that provisions tables and governs who can access what. Before that: a decade inside Celfocus building billing and ETL systems for telecom operators, and earlier still, clinical software used daily by physicians across Portugal's health service.</p>
+          <p>I like problems where getting the data model wrong actually costs someone something.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-block">
+            <h3>Works with</h3>
+            <p>Python, SQL &amp; PL/SQL, Google BigQuery, Teradata &amp; BTEQ</p>
           </div>
-          <ul>
-            <li>Delivered within a SAFe Agile framework, contributing to the Simplification and Semantic teams' planning and delivery cadence.</li>
-            <li>Simplification team: replicated legacy data warehouse tables into the new Teradata data warehouse, unit-tested each migration, wrote BTEQ scripts and produced evidence of data integrity to support deployment.</li>
-            <li>Semantic team: developed, tested and maintained solutions supporting the migration from legacy Teradata to Google BigQuery.</li>
-            <li>Built a Python command-line module to create a table or a list of tables directly in BigQuery, or generate their DDL.</li>
-            <li>Developed a Python solution aligning Semantic tables with Vodafone's internal permissioning process — extracting table metadata from JSON files and generating the corresponding SQL INSERT statements.</li>
-          </ul>
-          <p class="job-tech"><strong>Technologies:</strong> Python, Google Cloud Platform (BigQuery), Teradata, BTEQ, Git, VSCode</p>
+          <div class="fact-block">
+            <h3>Also comfortable in</h3>
+            <p>Oracle ODI, Oracle BRM, Oracle Forms &amp; Reports, Talend, n8n, Shell, Git &amp; Jenkins</p>
+          </div>
+          <div class="fact-block">
+            <h3>Background</h3>
+            <p>BSc Information Systems &amp; Technology, Universidade do Minho — plus recent hands-on training in AI agents &amp; automation (n8n, RAG) and Oracle Data Integrator.</p>
+          </div>
+          <div class="fact-block">
+            <h3>Languages</h3>
+            <p>Portuguese (native), English (advanced), Spanish (basic)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <p class="section-label">02 — Experience</p>
+        <h2>Where the work happened</h2>
+
+        <article class="role">
+          <div class="role-head">
+            <h3>Data Engineer</h3>
+            <span class="role-dates">2025 — Present</span>
+          </div>
+          <p class="role-company">Celfocus, on Vodafone Germany's BIT project</p>
+          <p>Leading the semantic layer of a Teradata → BigQuery migration. Built a Python CLI that provisions BigQuery tables — or just their DDL — on demand, and a pipeline that turns Vodafone's access-governance rules into ready-to-run SQL. Work that used to be manual, table by table.</p>
+          <p class="role-tags">Python · BigQuery · Teradata · BTEQ</p>
         </article>
 
-        <article class="job">
-          <div class="job-head">
-            <h3>Analyst / Developer / Support <span class="job-company">— Celfocus, Billing &amp; IITC</span></h3>
-            <p class="job-dates">Jul 2017 – Oct 2025</p>
+        <article class="role">
+          <div class="role-head">
+            <h3>Analyst / Developer</h3>
+            <span class="role-dates">2017 — 2025</span>
           </div>
-          <ul>
-            <li>Billing Dev Team: helped evolve the design of the EBUA solution, performed testing, and acted as SPOC between the Development and QA teams; supported the customer after go-live.</li>
-            <li>IITC team: developed BI reports and ODI (ETL) processes, and served on the 3rd-line support team.</li>
-            <li>Designed and built a new ETL pipeline for CDRs sourced from MediationZone/Openet (ECS), developing new ODI processes and PL/SQL procedures, functions and packages.</li>
-            <li>Participated in the 24/7 on-call support rotation throughout the engagement.</li>
-          </ul>
-          <p class="job-tech"><strong>Technologies:</strong> Oracle ODI, Oracle Database, Oracle PL/SQL, Oracle BRM, Oracle BI Publisher, Shell Scripting</p>
+          <p class="role-company">Celfocus, Billing &amp; IITC</p>
+          <p>Eight years inside telecom billing: helped evolve a customer-facing billing platform through its QA-to-production handoffs, then rebuilt the ETL pipeline that turns raw call records into billing data — new ODI flows, new PL/SQL, fewer 3am pages.</p>
+          <p class="role-tags">Oracle ODI · PL/SQL · Oracle BRM</p>
         </article>
 
-        <article class="job">
-          <div class="job-head">
-            <h3>Oracle Developer <span class="job-company">— Celfocus, Vodafone Turkey (CBU Migration)</span></h3>
-            <p class="job-dates">Jul 2016 – Jul 2017</p>
+        <article class="role">
+          <div class="role-head">
+            <h3>Earlier roles</h3>
+            <span class="role-dates">2012 — 2017</span>
           </div>
-          <ul>
-            <li>Supported the team in building the CBU migration solution using SQL, PL/SQL and Talend Open Studio, including identifying duplicate index entries across phased deployments.</li>
-          </ul>
-          <p class="job-tech"><strong>Technologies:</strong> Oracle Database, Oracle PL/SQL, Talend Open Studio</p>
+          <p class="role-company">Vodafone Turkey · Portuguese Health Ministry (SPMS) · Glintt HS</p>
+          <p>Migrated a Turkish telecom's customer base with Talend and SQL. Before that, built and ran the national clinical software Portuguese physicians used every day, and helped stand up the health ministry's first software support centre.</p>
+          <p class="role-tags">Talend · Oracle Forms · PL/SQL</p>
         </article>
+      </div>
+    </section>
 
-        <article class="job">
-          <div class="job-head">
-            <h3>Oracle Developer <span class="job-company">— SPMS, Health Ministry</span></h3>
-            <p class="job-dates">Jul 2014 – Jul 2016</p>
-          </div>
-          <ul>
-            <li>Developed and maintained the national clinical software used by physicians, evolving it from SAM to SClinico and upgrading from Oracle Forms 6i to 10g; implemented the first version of the software used by Nutritionists.</li>
-          </ul>
-          <p class="job-tech"><strong>Technologies:</strong> Oracle Forms &amp; Reports (6i &amp; 10g), Oracle Database, Oracle PL/SQL</p>
-        </article>
-
-        <article class="job">
-          <div class="job-head">
-            <h3>Global Support Analyst (1st–3rd Line) <span class="job-company">— SPMS, Health Ministry</span></h3>
-            <p class="job-dates">Sep 2012 – Jul 2014</p>
-          </div>
-          <ul>
-            <li>Helped establish the Support Centre for all Healthcare solutions at the Health Ministry, creating procedures to help physicians resolve software issues.</li>
-          </ul>
-        </article>
-
-        <article class="job">
-          <div class="job-head">
-            <h3>Oracle Developer <span class="job-company">— Glintt HS</span></h3>
-            <p class="job-dates">Jan 2012 – Sep 2012</p>
-          </div>
-          <ul>
-            <li>Developed and maintained Glintt's healthcare software solution, built on Oracle Forms &amp; Reports, Oracle Database and PL/SQL.</li>
-          </ul>
-        </article>
-
-      </section>
-
-      <section id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
-        <p class="section-lede">A few things I've built outside of work, mostly to sharpen automation and AI-workflow skills.</p>
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <p class="section-label">03 — Projects</p>
+        <h2>What I build on the side</h2>
+        <p class="section-lede">Mostly automation and AI workflows, built for people I know to solve problems they actually have.</p>
 
         <div class="project-grid">
           <article class="project-card">
+            <span class="project-index">01</span>
             <h3>EV Route Planner</h3>
-            <p>A Telegram bot that plans multi-stop electric-vehicle road trips across Portugal, combining live charger data with LLM-based reasoning about vehicle range. Built iteratively from a zone-lookup MVP to full point-to-point route planning with charging-stop optimization and a persistent vehicle profile.</p>
+            <p>A Telegram bot that plans multi-stop EV road trips across Portugal — combining live charger data with an LLM that reasons about real vehicle range. Started as a zone-lookup MVP, grew into full point-to-point planning with charging-stop optimization.</p>
             <p class="project-tech">n8n · Telegram Bot API · LLM agent · OSRM</p>
           </article>
 
           <article class="project-card">
+            <span class="project-index">02</span>
             <h3>Expense Tracker</h3>
-            <p>An OCR-based expense tracking app for a small family group: scan a receipt, and it automatically extracts, categorizes and stores the expense. Designed the full feature set — from AI-based receipt parsing with a fallback model, to real-time multi-device sync, PDF export and privacy-first data handling.</p>
+            <p>Photograph a receipt, and it's categorized, stored and synced across a family's devices in seconds — OCR + LLM parsing with a fallback model, PDF export, and privacy-first data handling built in from the start.</p>
             <p class="project-tech">n8n · Supabase · Lovable · OCR / LLM</p>
           </article>
 
           <article class="project-card">
+            <span class="project-index">03</span>
             <h3>Invoice Simplifier</h3>
-            <p>An automated, AT-certified invoicing workflow for a self-employed tradesperson with very low technical comfort. Designed a validation-first n8n pipeline as the foundation for a planned voice-based interface, prioritizing a low-friction experience for a non-technical end user.</p>
+            <p>A validation-first, AT-certified invoicing workflow built for a self-employed tradesperson with almost no technical comfort — the foundation for a voice-based interface I'm still building toward.</p>
             <p class="project-tech">n8n · Certified invoicing API</p>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="education" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education &amp; Training</h2>
-
-        <div class="edu-block">
-          <h3>Bachelor's Degree, Information Systems &amp; Technology</h3>
-          <p class="job-dates">Universidade do Minho · Sep 2006 – Jul 2011</p>
+    <section id="hobbies" class="section">
+      <div class="section-inner hobbies-grid">
+        <p class="section-label full-span">04 — Hobbies</p>
+        <div class="hobby">
+          <h3>Music</h3>
+          <p>Performing across a range of settings and styles.</p>
         </div>
-
-        <div class="edu-block">
-          <h3>Automation &amp; Agents with Artificial Intelligence</h3>
-          <p class="job-dates">codeForAll · 2026</p>
-          <p>Hands-on RAG pipelines &amp; n8n workflows.</p>
+        <div class="hobby">
+          <h3>Tennis &amp; Padel</h3>
+          <p>Federated tennis player for 16 years, plus padel — where the data-engineer brain doesn't help at all.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="edu-block">
-          <h3>Oracle Data Integrator (ODI 12c)</h3>
-          <p class="job-dates">Udemy · 2024</p>
-        </div>
+    <section id="contact" class="section contact-section">
+      <div class="section-inner contact-inner">
+        <p class="section-label">05 — Contact</p>
+        <h2>Let's talk.</h2>
+        <p class="section-lede">Open to Data Engineering opportunities in Portugal.</p>
+        <a class="contact-email" href="mailto:m.macedo@live.com.pt">m.macedo@live.com.pt</a>
+        <p class="contact-meta">Braga, Portugal · <a href="assets/CV_Miguel_Macedo.pdf" target="_blank" rel="noopener">Download CV (PDF)</a></p>
+      </div>
+    </section>
 
-        <div class="edu-block">
-          <h3>PSM I</h3>
-          <p class="job-dates">Scrum.org · 2023</p>
-        </div>
-
-        <div class="edu-block">
-          <h3>ITIL v4</h3>
-          <p class="job-dates">Actual Training · 2020</p>
-        </div>
-      </section>
-
-      <section id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <p>Open to Data Engineering opportunities in Portugal. The easiest way to reach me is by email.</p>
-        <a class="btn-cv btn-contact" href="mailto:m.macedo@live.com.pt">m.macedo@live.com.pt</a>
-      </section>
-
-    </div>
   </main>
 
   <footer class="site-footer">
